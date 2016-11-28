@@ -1,0 +1,56 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background-width: 50%;
+	background-height: 50%; 
+	background-size: cover;
+	background-image: url("Images/main.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.headline {
+	font-size: 42px;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #6BA46B, 
+				1px -1px 0 #6BA46B,
+			    -1px 1px 0 #6BA46B,
+			    1px 1px 0 #6BA46B;
+	text-align: center;
+}
+.select-form {
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #297A29;
+	border-radius: 15px;
+	text-align: center;
+	height: 35px;
+	background-color: #99B280;
+	
+}
+#bloodtype {
+	font-size: 18px;
+	border: 1px;
+	margin: 2px;
+}
+#season {
+	font-size: 18px;
+	border: 1px;
+	margin: 2px;
+}
+#result {
+	font-size: 16px;
+	border: 1px;
+	margin: 1px;
+	border-radius: 10px;
+}
+ul {
+	font-size: 20px;
+	border-radius: 15px;
+	font-weight: bold;
+	margin: 30px;
+    background-color: #99EB99;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
